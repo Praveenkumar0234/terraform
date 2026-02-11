@@ -9,7 +9,7 @@ resource "aws_instance" "roboshop" {
 
 resource "aws_security_group" "allow_all" {
     name        = "allow_all_change"
-    description = "allow all traffic"
+    description = "allow all traffic over the network"
 
     ingress {
         from_port        = 0
